@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "id": "Insulin Therapy",
+      "label": "Insulin Therapy",
+      "type": "biomedical_concept"
+    },
+    {
+      "id": "The Stigma Of Injections",
+      "label": "The Stigma Of Injections",
+      "type": "biomedical_concept"
+    },
+    {
+      "id": "Insulin",
+      "label": "Insulin",
+      "type": "biomedical_concept"
+    },
+    {
+      "id": "Glucose",
+      "label": "Glucose",
+      "type": "biomedical_concept"
+    },
+    {
+      "id": "Blood Glucose",
+      "label": "Blood Glucose",
+      "type": "biomedical_concept"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Insulin Therapy",
+      "target": "The Stigma Of Injections",
+      "key": "associated_with:pubmed_38559691_0aa735e94873",
+      "reference_source": "pubmed:38559691",
+      "predicate": "associated_with",
+      "chunk_id": "pubmed_38559691_0aa735e94873",
+      "evidence": "Several barriers have been identified that hinder the initiation of insulin, including fear of hypoglycemia, lack of adherence, the need for glucose monitoring, the injection method of insulin administration, social rejection associated with the stigma of injections, weight gain, a sense of therapeutic failure at initiation, lack of experience among some healthcare professionals, and the delayed and reactive positioning of insulin in recent clinical guidelines.",
+      "confidence": 0.82,
+      "polarity": "positive",
+      "qualifiers": [
+        "rule_extracted"
+      ]
+    },
+    {
+      "source": "Insulin",
+      "target": "Glucose",
+      "key": "associated_with:pubmed_2863979_691dd1e9b5c9",
+      "reference_source": "pubmed:2863979",
+      "predicate": "associated_with",
+      "chunk_id": "pubmed_2863979_691dd1e9b5c9",
+      "evidence": "In fact, the degree of fasting hyperglycemia in a given patient with non-insulin-dependent diabetes mellitus is closely related to the degree of impaired pancreatic beta-cell responsiveness to glucose.",
+      "confidence": 0.82,
+      "polarity": "positive",
+      "qualifiers": [
+        "rule_extracted"
+      ]
+    },
+    {
+      "source": "Insulin",
+      "target": "Blood Glucose",
+      "key": "causes:pubmed_2863979_691dd1e9b5c9",
+      "reference_source": "pubmed:2863979",
+      "predicate": "causes",
+      "chunk_id": "pubmed_2863979_691dd1e9b5c9",
+      "evidence": "Such findings suggest that impaired insulin secretion leads to increased hepatic glucose production, which raises the plasma glucose level.",
+      "confidence": 0.82,
+      "polarity": "uncertain",
+      "qualifiers": [
+        "rule_extracted"
+      ]
+    }
+  ]
+}
